@@ -22,4 +22,3 @@ export async function createBooking(formData: { get: (arg0: string) => any; }){
     const checkIn = formData.get('check_in');
     const roomId = formData.get('room_id');
 }
-    */}
