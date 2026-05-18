@@ -1,8 +1,9 @@
 'use server'
 import pool from '@/lib/db';
 
-//Comment for you Back-enders: replace "formData" with an existing variable*/}
-{// Commented since the code is redundant by this time. Uncomment once you can find use for it.
+// Comment for you Back-enders: replace "formData" with an existing variable
+// Commented since the code is redundant by this time. Uncomment once you can find use for it.
+
 export async function createRoomType(formData: { get: (arg0: string) => any; }){
     const typeName = formData.get('type_name');
     const basePrice = formData.get('base_price');
